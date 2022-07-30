@@ -1,7 +1,7 @@
 {
-  "name": "typescript-node-express-realworld-example-app",
-  "version": "0.0.0",
-  "description": "> ### [YOUR_FRAMEWORK] codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.",
+  "name": "express-app",
+  "version": "0.0.1",
+  "description": "express-app",
   "main": "app.js",
   "scripts": {
     "start": "npm run build && npm run watch && npm run serve",
@@ -10,14 +10,13 @@
     "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "watch-node": "nodemon -r dotenv/config build/server.js",
     "build-ts": "tsc",
-    "watch-ts": "tsc -w",
-    "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json"
+    "watch-ts": "tsc -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skopekreep/typescript-node-express-realworld-example-app"
+    "url": "git+https://github.com/faizulhaque/expressjs-typescript"
   },
-  "author": "Josh Black",
+  "author": "Faiz ul haque",
   "license": "ISC",
   "bugs": {
     "url": "https://"
