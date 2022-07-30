@@ -1,0 +1,57 @@
+# Metadata files
+.DS_Store
+*~
+
+# Logs
+*.log
+
+# Sensitive configuration files
+.config.js
+.config.json
+.config.*.js
+.config.*.json
+
+# Temporary configuration files
+.config.js.*
+.config.json.*
+.config.*.js.*
+.config.*.json.*
+
+# Dependency directory
+node_modules/
+
+
+# Editor files
+.idea
+.vscode
+
+# Elastic Beanstalk files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Compiled Python
+*.pyc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+# Compiled Coffeescript, Less
+/app/public/src/css/**/*
+/app/public/src/js/**/*
+/app/public/dist/**/*.css
+/app/public/dist/**/*.js
+# test videos
+/test/test-videos
+
+#vim files
+*.swp
+
+#vim files
+package-lock.json
+
+
+#jest coverage
+/coverage
+/build
